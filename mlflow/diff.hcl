@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = ""
+  sha     = "h1:jqFUwe2FM9d+tRU+j2KlfelEIg3/k0SqSuFEhDDeeJ0="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "mlflow",
   ]
 
-  sha     = ""
+  sha     = "h1:jqFUwe2FM9d+tRU+j2KlfelEIg3/k0SqSuFEhDDeeJ0="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "helm" {
     "mlflow",
   ]
 
-  sha     = ""
+  sha     = "h1:W3Jph61jh0xFebAMVGFGnZHraLmSczJziQGGcOZYM48="
   retries = 0
   verbose = false
 }
