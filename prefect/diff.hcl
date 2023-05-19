@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = ""
+  sha     = "h1:C4lNbtAbOm/zAIh6NJUeGK2moS6/ij7uNJ8k399cZzM="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "prefect",
   ]
 
-  sha     = ""
+  sha     = "h1:C4lNbtAbOm/zAIh6NJUeGK2moS6/ij7uNJ8k399cZzM="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "helm" {
     "prefect",
   ]
 
-  sha     = ""
+  sha     = "h1:AdV+jscYHsVhnnAvz/QNUmSbT01Gg+3tMvxSRYlVeF8="
   retries = 0
   verbose = false
 }
