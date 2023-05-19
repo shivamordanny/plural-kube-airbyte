@@ -1,0 +1,6 @@
+dependencies:
+- name: mlflow
+  repository: cm://app.plural.sh/cm/mlflow
+  version: 0.1.12
+digest: sha256:e9251811166a1b647bbf531c18afea9cda261097c835ce787b97b8a9222e0673
+generated: "2023-05-19T08:17:10.365685897Z"
