@@ -76,7 +76,7 @@ step "bounce" {
     "postgres",
   ]
 
-  sha     = "h1:sGdT0Xsy4vjqiV/ZS6to82j18GtSB55Ldh5RecRV2J8="
+  sha     = "h1:pMgjhaPJBbo8Nkhq1exVJC7k/OErU2T7OztpUJBEp34="
   retries = 2
   verbose = false
 }

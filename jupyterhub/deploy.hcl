@@ -1,11 +1,11 @@
 metadata {
-  path = "ingress-nginx"
+  path = "jupyterhub"
   name = "deploy"
 }
 
 step "terraform-init" {
-  wkdir   = "ingress-nginx/terraform"
-  target  = "ingress-nginx/terraform"
+  wkdir   = "jupyterhub/terraform"
+  target  = "jupyterhub/terraform"
   command = "terraform"
 
   args = [
@@ -13,14 +13,14 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:5E44chxcIdbxI38WFBF6a5oANmgzTvo5z7KVtHqAv/w="
+  sha     = "h1:yfNXhoPK/fQty01LoSECrF4wjzNpeZO4p96WteGv3ws="
   retries = 0
   verbose = false
 }
 
 step "terraform-apply" {
-  wkdir   = "ingress-nginx/terraform"
-  target  = "ingress-nginx/terraform"
+  wkdir   = "jupyterhub/terraform"
+  target  = "jupyterhub/terraform"
   command = "terraform"
 
   args = [
@@ -28,36 +28,36 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:5E44chxcIdbxI38WFBF6a5oANmgzTvo5z7KVtHqAv/w="
+  sha     = "h1:yfNXhoPK/fQty01LoSECrF4wjzNpeZO4p96WteGv3ws="
   retries = 2
   verbose = false
 }
 
 step "terraform-output" {
-  wkdir   = "ingress-nginx"
-  target  = "ingress-nginx/terraform"
+  wkdir   = "jupyterhub"
+  target  = "jupyterhub/terraform"
   command = "plural"
 
   args = [
     "output",
     "terraform",
-    "ingress-nginx",
+    "jupyterhub",
   ]
 
-  sha     = "h1:5E44chxcIdbxI38WFBF6a5oANmgzTvo5z7KVtHqAv/w="
+  sha     = "h1:yfNXhoPK/fQty01LoSECrF4wjzNpeZO4p96WteGv3ws="
   retries = 0
   verbose = false
 }
 
 step "crds" {
-  wkdir   = "ingress-nginx"
-  target  = "ingress-nginx/crds"
+  wkdir   = "jupyterhub"
+  target  = "jupyterhub/crds"
   command = "plural"
 
   args = [
     "wkspace",
     "crds",
-    "ingress-nginx",
+    "jupyterhub",
   ]
 
   sha     = "h1:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
@@ -66,17 +66,17 @@ step "crds" {
 }
 
 step "bounce" {
-  wkdir   = "ingress-nginx"
-  target  = "ingress-nginx/helm"
+  wkdir   = "jupyterhub"
+  target  = "jupyterhub/helm"
   command = "plural"
 
   args = [
     "wkspace",
     "helm",
-    "ingress-nginx",
+    "jupyterhub",
   ]
 
-  sha     = "h1:N3CadC4hr2t/dBLBS2dsgw1XCPtQprQLFtKU9O8BrB8="
+  sha     = "h1:QSTHr6NctlQ5b8bUj6SKgpKsukYeNU0jfDP54gcRApY="
   retries = 2
   verbose = false
 }

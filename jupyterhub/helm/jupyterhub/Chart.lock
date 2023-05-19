@@ -1,0 +1,6 @@
+dependencies:
+- name: jupyterhub
+  repository: cm://app.plural.sh/cm/jupyterhub
+  version: 0.1.5
+digest: sha256:b0b45bfb7a7b26935af22a8d48ac23438ffc8388aeae9633c305de363555af8a
+generated: "2023-05-19T08:15:24.04754623Z"
