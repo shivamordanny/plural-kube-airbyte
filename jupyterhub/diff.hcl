@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = ""
+  sha     = "h1:yfNXhoPK/fQty01LoSECrF4wjzNpeZO4p96WteGv3ws="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "jupyterhub",
   ]
 
-  sha     = ""
+  sha     = "h1:yfNXhoPK/fQty01LoSECrF4wjzNpeZO4p96WteGv3ws="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "helm" {
     "jupyterhub",
   ]
 
-  sha     = ""
+  sha     = "h1:QSTHr6NctlQ5b8bUj6SKgpKsukYeNU0jfDP54gcRApY="
   retries = 0
   verbose = false
 }
