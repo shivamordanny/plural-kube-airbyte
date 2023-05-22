@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = ""
+  sha     = "h1:ZbFvMXXe+BIQp7eBKs4UtXZi5wTgLloH231BHfiFXGU="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "ingress-nginx",
   ]
 
-  sha     = ""
+  sha     = "h1:ZbFvMXXe+BIQp7eBKs4UtXZi5wTgLloH231BHfiFXGU="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "helm" {
     "ingress-nginx",
   ]
 
-  sha     = ""
+  sha     = "h1:N3CadC4hr2t/dBLBS2dsgw1XCPtQprQLFtKU9O8BrB8="
   retries = 0
   verbose = false
 }
