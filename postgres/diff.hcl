@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = ""
+  sha     = "h1:tee4U3JX5i8fV35qSdCzZmWwkvNwqd7zBgxl+HEnMTg="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "postgres",
   ]
 
-  sha     = ""
+  sha     = "h1:tee4U3JX5i8fV35qSdCzZmWwkvNwqd7zBgxl+HEnMTg="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "helm" {
     "postgres",
   ]
 
-  sha     = ""
+  sha     = "h1:pMgjhaPJBbo8Nkhq1exVJC7k/OErU2T7OztpUJBEp34="
   retries = 0
   verbose = false
 }

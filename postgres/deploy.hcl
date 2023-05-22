@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:LbjQrgLHBjqepRLQqlj4euM5lVPRHdKmWkfprSp//i8="
+  sha     = "h1:tee4U3JX5i8fV35qSdCzZmWwkvNwqd7zBgxl+HEnMTg="
   retries = 0
   verbose = false
 }
@@ -28,7 +28,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:LbjQrgLHBjqepRLQqlj4euM5lVPRHdKmWkfprSp//i8="
+  sha     = "h1:tee4U3JX5i8fV35qSdCzZmWwkvNwqd7zBgxl+HEnMTg="
   retries = 2
   verbose = false
 }
@@ -44,7 +44,7 @@ step "terraform-output" {
     "postgres",
   ]
 
-  sha     = "h1:LbjQrgLHBjqepRLQqlj4euM5lVPRHdKmWkfprSp//i8="
+  sha     = "h1:tee4U3JX5i8fV35qSdCzZmWwkvNwqd7zBgxl+HEnMTg="
   retries = 0
   verbose = false
 }
