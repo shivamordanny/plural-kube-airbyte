@@ -76,7 +76,7 @@ step "bounce" {
     "ingress-nginx",
   ]
 
-  sha     = "h1:AcqlSwP0Bi0isf24EsGGUtuVcOwsNAaBx8RaRU9d6RQ="
+  sha     = "h1:5axcuo/X9T2OFJRgH9hroIJy3tTa91nEqCC1cDRfkmo="
   retries = 2
   verbose = false
 }
