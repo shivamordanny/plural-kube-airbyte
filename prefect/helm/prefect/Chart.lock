@@ -1,6 +1,6 @@
 dependencies:
 - name: prefect
   repository: cm://app.plural.sh/cm/prefect
-  version: 0.2.0
-digest: sha256:a1dd6358b76e0ca5fcd3aca825c77aa8439b04f14907d0a300cabd9b2459790e
-generated: "2023-06-02T13:22:49.211128802Z"
+  version: 0.2.1
+digest: sha256:861836594f4164e3262f0de88d37dbe9c6047df1478e86976b414a04a0c4625d
+generated: "2023-06-02T14:44:09.193552194Z"
