@@ -76,7 +76,7 @@ step "bounce" {
     "prefect",
   ]
 
-  sha     = "h1:AdV+jscYHsVhnnAvz/QNUmSbT01Gg+3tMvxSRYlVeF8="
+  sha     = "h1:Nphe5YE/0Q9SBFIZRJkBvRP5Rl7poKG1kb47aICEPBk="
   retries = 2
   verbose = false
 }
