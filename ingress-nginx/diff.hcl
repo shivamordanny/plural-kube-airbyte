@@ -45,7 +45,7 @@ step "helm" {
     "ingress-nginx",
   ]
 
-  sha     = "h1:N3CadC4hr2t/dBLBS2dsgw1XCPtQprQLFtKU9O8BrB8="
+  sha     = "h1:AcqlSwP0Bi0isf24EsGGUtuVcOwsNAaBx8RaRU9d6RQ="
   retries = 0
   verbose = false
 }
