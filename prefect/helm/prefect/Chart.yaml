@@ -2,9 +2,9 @@ apiVersion: v2
 name: prefect
 description: A helm chart for prefect
 version: 0.1.0
-appVersion: 0.2.1
+appVersion: 0.2.2
 dependencies:
 - name: prefect
-  version: 0.2.1
+  version: 0.2.2
   repository: cm://app.plural.sh/cm/prefect
   condition: prefect.enabled

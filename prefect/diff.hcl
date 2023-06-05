@@ -45,7 +45,7 @@ step "helm" {
     "prefect",
   ]
 
-  sha     = "h1:xQ4ZjPttyt40GKaRQfc0/kqC3b6JF1j6u7wYPnxhTPA="
+  sha     = "h1:9A/r0szyiVrgtCaR68SYHz/RQjRssNvGLF3IilWUXGI="
   retries = 0
   verbose = false
 }
